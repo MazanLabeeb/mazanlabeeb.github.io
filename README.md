@@ -1,1 +1,1 @@
-mazanlabeeb.github.i
+mazanlabeeb.github.io
