@@ -14,9 +14,18 @@
 </head>
 
 <body>
-    <?php
-        require "include/header.php";
-    ?>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><a class="navbar-brand logo" href="index.html">Mazan Labeeb</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects-grid-cards.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hire-me.html">Hire me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <main class="page projects-page">
     <section class="portfolio-block cv">
             <div class="container">
@@ -58,9 +67,12 @@
             </div>
         </section>
     </main>
-    <?php
-        require "include/footer.php";
-    ?>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="links"><a href="cv.html">About me</a><a href="hire-me.html">Contact me</a><a href="projects-grid-cards.html">Projects</a></div>
+            <div class="social-icons"><a href="https://www.facebook.com/mazanlabeeb"><i class="icon ion-social-facebook"></i></a><a href="https://www.instagram.com/mazanlabeeb"><i class="icon ion-social-instagram-outline"></i></a><a href="https://wa.me/+923061695230/?text=Contact Mazan Labeeb"><i class="icon ion-social-whatsapp-outline"></i></a></div>
+        </div>
+    </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
